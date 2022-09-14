@@ -2,18 +2,23 @@
 Simple [Pong game](https://en.wikipedia.org/wiki/Pong) on C language for terminal Linux.
 
 ## Libraries
-- [`ncurses`](https://en.wikipedia.org/wiki/Ncurses) - for real-time mode
+- [`ncurses`](https://en.wikipedia.org/wiki/Ncurses) - for real-time mode 
+
+Installing the ncurses library in Debian/Ubuntu Linux:
+```
+$ sudo apt install ncurses-bin
+```
 - [`unistd`](https://en.wikipedia.org/wiki/Unistd.h) - for the delay between cards in microseconds
 - [`stdio`](https://www.tutorialspoint.com/c_standard_library/stdio_h.htm) - for other primitive actions (e. g. printf())
 
 ## Compilation
 Go to the Pong-game folder and enter in the terminal:
 ```
-make
+$ make
 ```
 Compiled by Pong_game. Run Pong_game in the terminal:
 ```
-./Pong_game
+$ ./Pong_game
 ```
 ## Gameplay
 To move the left racket, use the keys `'A'` and `'Z'` ('a' and 'z'), for the right - `'K'` and `'M'` ('k' and 'm'). To pause the game, you need to press the `space` bar. To exit the game, you need to press `ESC` or wait for one of the players to win. In the game you can change the speed using the keys `'1'` , `'2'`, `'3'`, .. ,`'0'`.
@@ -22,7 +27,7 @@ With standard settings, the game ends when one of the players scores seven point
 > Since only one input stream is used, when holding the control keys of the racket or when pressing intensively, the racket can move for some time by "inertia".
 
 
-![glider_emblem](materials/gameplay.gif)
+![glider_emblem](https://github.com/FezzMad/Pong-game/blob/main/materials/gameplay.gif)
 
 ## Settings
 If you want to change drawing symbols, size of field, control keys or the final score to win, you can do it in ***constants.h***.
