@@ -27,7 +27,7 @@ With standard settings, the game ends when one of the players scores seven point
 > Since only one input stream is used, when holding the control keys of the racket or when pressing intensively, the racket can move for some time by "inertia".
 
 
-![glider_emblem](https://github.com/FezzMad/Pong-game/blob/main/materials/gameplay.gif)
+![glider_emblem](https://github.com/FezzMad/Pong-game/blob/main/materials/Pong.gif)
 
 ## Settings
 If you want to change drawing symbols, size of field, control keys or the final score to win, you can do it in ***constants.h***.
