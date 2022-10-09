@@ -2,7 +2,7 @@
 Simple [Pong game](https://en.wikipedia.org/wiki/Pong) on C language for terminal Linux.
 
 ## Libraries
-- [`ncurses`](https://en.wikipedia.org/wiki/Ncurses) - for real-time mode 
+- [`ncurses`](https://en.wikipedia.org/wiki/Ncurses) - for real-time mode //add ncurses for MacOS
 
 Installing the ncurses library in Debian/Ubuntu Linux:
 ```
